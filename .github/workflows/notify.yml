@@ -13,5 +13,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT }} # Personal Access Token with repo scope
-          repository: PWNight/FoxWorldContent # Replace with parent repo (e.g., "yourusername/your-parent-repo")
+          repository: PWNight/FoxWorldWeb # Replace with parent repo (e.g., "yourusername/your-parent-repo")
           event-type: submodule-updated
