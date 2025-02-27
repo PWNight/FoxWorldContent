@@ -1,10 +1,8 @@
 name: Notify Parent Repo on Submodule Push
-
 on:
   push:
     branches:
       - main
-
 jobs:
   notify:
     runs-on: ubuntu-latest
