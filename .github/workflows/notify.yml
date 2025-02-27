@@ -1,0 +1,17 @@
+name: Notify Parent Repo on Submodule Push
+
+on:
+  push:
+    branches:
+      - main # Adjust to the branch you use in the submodule
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Repository Dispatch Event
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PAT }} # Personal Access Token with repo scope
+          repository: PWNight/FoxWorldContent # Replace with parent repo (e.g., "yourusername/your-parent-repo")
+          event-type: submodule-updated
