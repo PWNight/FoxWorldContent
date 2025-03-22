@@ -47,7 +47,7 @@ export const ROUTES : EachRoute[] = [
       { title: "Управление эмблемами", href: "/emblems" },
       { title: "Как сварить свой первый напиток и не умереть", href: "/brewery" },
       { title: "Улучшенные крафты камнереза", href: "/mastercutter" },
-      { title: "Как установить скин двумя способами", href: "/skinsetup" },
+      { title: "Как установить скин тремя способами", href: "/skinsetup" },
       { title: "Как создать изображение на карте", href: "/imagecreate" },
     ],
   },
