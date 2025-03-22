@@ -1,7 +1,7 @@
 ---
 title: Команды
 description: Здесь вы найдёте полный список доступных команд на сервере.
-update_date: 18-01-2025
+update_date: 22-03-2025
 ---
 ## Аккаунт и общение
 Команды для взаимодействия с вашим аккаунтом и общения с игроками.
@@ -62,6 +62,10 @@ update_date: 18-01-2025
             <TableCell>Открывает меню кастомизации</TableCell>
         </TableRow>
         <TableRow>
+            <TableCell>/skins</TableCell>
+            <TableCell>Открывает меню с набором скинов</TableCell>
+        </TableRow>
+        <TableRow>
             <TableCell>/skin [никнейм скина или ссылка]</TableCell>
             <TableCell>Меняет текущий скин на указанный</TableCell>
         </TableRow>
@@ -80,6 +84,46 @@ update_date: 18-01-2025
         <TableRow>
             <TableCell>/skin history</TableCell>
             <TableCell>Показывает историю скинов на вашем аккаунте</TableCell>
+        </TableRow>
+    </TableBody>
+</Table>
+## Создание изображений
+Команды для создания и управления изображениями
+<Table>
+    <TableHeader>
+        <TableRow>
+            <TableHead>Команда</TableHead>
+            <TableHead>Назначение</TableHead>
+        </TableRow>
+    </TableHeader>
+    <TableBody>
+        <TableRow>
+            <TableCell>/imageframe create [название] [ссылка] [ширина (кол-во карт)] [высота (кол-во карт)] </TableCell>
+            <TableCell>Создаёт карту или набор карт (если например указан размер 2 на 2 и более) с изображением. GIF изображения можно создавать только с подпиской FoxPlus</TableCell>
+        </TableRow>
+        <TableRow>
+            <TableCell>/imageframe clone [название старого изображения] [название нового изображения]</TableCell>
+            <TableCell>Создаёт копию изображения с новым названием</TableCell>
+        </TableRow>
+        <TableRow>
+            <TableCell>/imageframe get [название изображения]</TableCell>
+            <TableCell>Выдаёт заново карту или набор карт с изображением</TableCell>
+        </TableRow>
+        <TableRow>
+            <TableCell>/imageframe rename [название старого изображения] [новое название]</TableCell>
+            <TableCell>Переименовывает изображение</TableCell>
+        </TableRow>
+        <TableRow>
+            <TableCell>/imageframe delete [название изображения]</TableCell>
+            <TableCell>Удаляет изображение</TableCell>
+        </TableRow>
+        <TableRow>
+            <TableCell>/imageframe info</TableCell>
+            <TableCell>Отображает информацию о изображении, которое вы держите в руке</TableCell>
+        </TableRow>
+        <TableRow>
+            <TableCell>/imageframe list</TableCell>
+            <TableCell>Отображает список ваших изображений</TableCell>
         </TableRow>
     </TableBody>
 </Table>
