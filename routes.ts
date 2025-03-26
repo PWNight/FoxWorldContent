@@ -11,14 +11,6 @@ export const ROUTES : EachRoute[] = [
     href: "/",
   },
   {
-    title: "Правила",
-    href: "/rules",
-  },
-  {
-    title: "Конституция",
-    href: "/constitution",
-  },
-  {
     title: "Основное",
     href: "/introduction",
     noLink: true,
